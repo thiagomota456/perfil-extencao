@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cac7eabb61.js" crossorigin="anonymous"></script>
+    <title>Meu Perfil</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="imgs/eu.jpg" alt="Foto de Perfil" class="profile-picture">
+            <div class="profile-info">
+                <h1>Thiago Soares Mota</h1>
+                <p>Aluno da Eng. de Computação | Desenvolvedor de Software</p>
+                <div id="icons">
+                    <a href="https://twitter.com/thiago10mota"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/thiagosoaresmota/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/thiagomota456"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown" id="textField0">
+            <h2 onclick="toggleDropdown('textField0')">Um pouco sobre mim<i class="fa-solid fa-caret-down"></i></h2>
+            <div class="dropdown-content">
+                <p>
+                    Tenho 25 anos, uma doguinha linda e bagunceira chamada Diana. Adoro podcasts. Sabe aqueles filmes
+                    velhos
+                    e chatos que todo mundo odeia? Eu adoro. Me chama para assistir um filme de 1960 em preto e branco
+                    com
+                    legenda e vire meu amigo. Mas também adoro coisas mais normais. Assistir os dois é comigo mesmo.
+                </p>
+            </div>
+        </div>
+        <div class="dropdown" id="textField1">
+            <h2 onclick="toggleDropdown('textField1')">Por que estou me candidatando<i
+                    class="fa-solid fa-caret-down"></i></h2>
+            <div class="dropdown-content">
+                <p>
+                    Primeiramente, tenho interesse no projeto e em adquirir experiência profissional em Python. Em
+                    segundo lugar, busco complementar minha renda. Contudo, estou disposto a contribuir de forma
+                    voluntária, desde que não haja disponibilidade de vagas remuneradas para mim.
+                </p>
+            </div>
+        </div>
+        <div class="dropdown" id="textField2">
+            <h2 onclick="toggleDropdown('textField2')">Minha expectativa em participar deste projeto de extensão<i
+                    class="fa-solid fa-caret-down"></i></h2>
+            <div class="dropdown-content">
+                <p>
+
+                    Demonstrar habilidade em desenvolver projetos ou produtos em Python com facilidade, enquanto
+                    aprimoro meu entendimento detalhado da linguagem e de frameworks associadas.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
